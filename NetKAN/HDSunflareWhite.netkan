@@ -1,14 +1,22 @@
 identifier: HDSunflareWhite
 name: HD Sunflare White
+abstract: HD 4k Sunflare and Surface Textures for Kerbol - with Corona Effects and soft Bloom - White Version
 $kref: '#/ckan/spacedock/4175'
 tags:
   - config
   - graphics
+supports:
+  - name: PromisedWorldsCore
+  - name: PromisedWorldsTuun
+  - name: PromisedWorldsDebdeb
+  - name: CosmicSerenity-Core
+  - name: CosmicSerenity-Atlas
+  - name: CosmicSerenity-Hades
+  - name: CosmicSerenity-Yunxiao
 conflicts:
   - name: HDSunflare
-  - name: HDSunflareRed
-  - name: HDSunflareBlue
 depends:
   - name: ModuleManager
   - name: Scatterer-sunflare-default
   - name: Scatterer
+  - name: Kopernicus
